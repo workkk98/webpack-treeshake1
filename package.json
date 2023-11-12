@@ -12,6 +12,7 @@
   "license": "ISC",
   "devDependencies": {},
   "dependencies": {
+    "lodash-es": "^4.17.21",
     "webpack": "^5.70.0",
     "webpack-cli": "^4.9.2"
   }

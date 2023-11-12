@@ -12,11 +12,6 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
   },
   mode: process.env.NODE_ENV,
-  optimization: {
-    usedExports: true,
-    innerGraph: true,
-    sideEffects: true,
-  },
   // devtool: false,
-  devtool: "eval-cheap-module-source-map",
+  devtool: false,
 };
